@@ -17,15 +17,15 @@ nav{position:sticky;top:0;z-index:20;background:rgba(7,17,31,.86);backdrop-filte
 .kicker{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
 h1{font-size:clamp(42px,7vw,78px);line-height:1.02;margin:14px 0}.hero h1 span{color:var(--accent)}
 .lead{font-size:19px;color:var(--muted);max-width:700px}.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid var(--line);display:inline-block}.primary{background:var(--accent);color:#06131f;border-color:var(--acce[...]
+.btn{padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid var(--line);display:inline-block}.primary{background:var(--accent);color:#06131f;border-color:var(--accent)}.primary:hover{opacity:.9}.secondary{background:0;color:var(--accent)}.secondary:hover{background:rgba(79,209,197,.1)}
 .hero-card{background:linear-gradient(160deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:28px;padding:32px;text-align:center;box-shadow:0 25px 70px rgba(0,0,0,.3)}
-.profile-photo{width:180px;height:180px;object-fit:cover;border-radius:50%;border:4px solid var(--accent);margin:auto;display:block}.placeholder{display:flex;align-items:center;justify-content:center;[...]
-.mini{color:var(--muted);font-size:14px}.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:20px}.chip{padding:7px 10px;background:#122943;border:1px solid var(--line);border-[...]
+.profile-photo{width:180px;height:180px;object-fit:cover;border-radius:50%;border:4px solid var(--accent);margin:auto;display:block}.placeholder{display:flex;align-items:center;justify-content:center;width:180px;height:180px;border-radius:50%;background:rgba(79,209,197,.1);margin:auto;border:4px solid var(--accent);color:var(--muted)}
+.mini{color:var(--muted);font-size:14px}.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:20px}.chip{padding:7px 10px;background:#122943;border:1px solid var(--line);border-radius:20px;font-size:12px;color:#cfe0f4;display:inline-block}
 section{padding:85px 0}.section-title{font-size:36px;margin:0 0 10px}.section-sub{color:var(--muted);margin-top:0}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.card{background:rgba(13,27,46,.8);border:1px solid var(--line);border-radius:18px;padding:25px}.card h3{margin-top:0}.card p,.card li{c[...]
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.card{background:rgba(13,27,46,.8);border:1px solid var(--line);border-radius:18px;padding:25px}.card h3{margin-top:0}.card p,.card li{color:var(--muted)}
 .tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}.tag{border:1px solid #284564;border-radius:8px;padding:6px 9px;font-size:13px;color:#cfe0f4}
 .project{position:relative;overflow:hidden}.project .num{color:var(--accent);font-weight:800;font-size:13px}.project h3{font-size:24px}.project strong{color:var(--text)}
-.timeline{border-left:2px solid var(--line);padding-left:25px}.timeline-item{position:relative;margin-bottom:28px}.timeline-item:before{content:"";position:absolute;left:-33px;top:8px;width:12px;heigh[...]
+.timeline{border-left:2px solid var(--line);padding-left:25px}.timeline-item{position:relative;margin-bottom:28px}.timeline-item:before{content:"";position:absolute;left:-33px;top:8px;width:12px;height:12px;background:var(--accent);border-radius:50%}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact a{text-decoration:none}.contact .card{min-height:100%}
 footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-align:center}
 @media(max-width:800px){.hero,.grid,.contact{grid-template-columns:1fr}.navlinks{display:none}.hero{padding-top:45px}.hero-card{max-width:430px;margin:auto}}
@@ -34,7 +34,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 <body>
 <nav><div class="container nav">
 <div class="brand">Moulee<span>swaraan</span></div>
-<div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#contact">[...]
+<div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></div>
 </div></nav>
 
 <header class="container hero">
@@ -49,7 +49,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 </div>
 </div>
 <div class="hero-card">
-<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKcBBgYGBgcGBwgIBwoLCgsKDw4MDA4PFhAREBEQFiIVGRUVGRU[...]
+<img src="https://via.placeholder.com/180x180/4fd1c5/06131f?text=Mouleeswaran" alt="Mouleeswaran Profile Photo" class="profile-photo">
 <h2>Mouleeswaran</h2><p class="mini">B.Tech – Electronics & Communication Engineering</p>
 <div class="chips"><span class="chip">ASIC Design</span><span class="chip">VLSI</span><span class="chip">Embedded</span><span class="chip">IoT</span></div>
 </div>
@@ -57,7 +57,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 
 <section id="about"><div class="container">
 <h2 class="section-title">About Me</h2><p class="section-sub">Building a foundation in digital design and hardware systems.</p>
-<div class="card"><p>I am currently a second-year B.Tech Electronics and Communication Engineering student at Lovely Professional University. My interests are centered on hardware, semiconductors and [...]
+<div class="card"><p>I am currently a second-year B.Tech Electronics and Communication Engineering student at Lovely Professional University. My interests are centered on hardware, semiconductors and VLSI design. I'm passionate about understanding how digital systems work at the chip level and aspire to contribute to the field of ASIC design and semiconductor engineering.</p></div>
 </div></section>
 
 <section id="skills"><div class="container">
@@ -65,22 +65,23 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 <div class="grid">
 <div class="card"><h3>Programming & HDL</h3><div class="tags"><span class="tag">Python</span><span class="tag">C Programming</span><span class="tag">Verilog</span></div></div>
 <div class="card"><h3>Tools</h3><div class="tags"><span class="tag">VS Code</span><span class="tag">Firebase</span></div></div>
-<div class="card"><h3>Soft Skills</h3><div class="tags"><span class="tag">Problem-Solving</span><span class="tag">Team Player</span><span class="tag">Project Management</span><span class="tag">Adaptab[...]
+<div class="card"><h3>Soft Skills</h3><div class="tags"><span class="tag">Problem-Solving</span><span class="tag">Team Player</span><span class="tag">Project Management</span><span class="tag">Adaptability</span></div></div>
+<div class="card"><h3>Electronics & Embedded</h3><div class="tags"><span class="tag">Arduino</span><span class="tag">Microcontrollers</span><span class="tag">IoT</span><span class="tag">Circuit Design</span></div></div>
 </div></div></section>
 
 <section id="projects"><div class="container">
 <h2 class="section-title">Projects</h2><p class="section-sub">Hands-on electronics projects that connect sensors, digital logic and embedded control.</p>
 <div class="grid">
 <div class="card project"><div class="num">01 • EMBEDDED / IoT</div><h3>Smart Greenhouse</h3>
-<p>A sensor-driven greenhouse prototype designed to monitor environmental conditions and automate selected operations. The system reads temperature, soil moisture and light levels and uses an Arduino [...]
+<p>A sensor-driven greenhouse prototype designed to monitor environmental conditions and automate selected operations. The system reads temperature, soil moisture and light levels and uses an Arduino to trigger relay-controlled irrigation and ventilation.</p>
 <p><strong>Objective:</strong> Improve greenhouse monitoring and automation.</p>
 <p><strong>Controller:</strong> Arduino UNO</p><p><strong>Sensors:</strong> DHT11, Soil Moisture Sensor, LDR</p><p><strong>Outputs:</strong> 16×2 I2C LCD, Relay Modules</p>
-<div class="tags"><span class="tag">Arduino UNO</span><span class="tag">DHT11</span><span class="tag">Soil Moisture</span><span class="tag">LDR</span><span class="tag">LCD</span><span class="tag">Rela[...]
+<div class="tags"><span class="tag">Arduino UNO</span><span class="tag">DHT11</span><span class="tag">Soil Moisture</span><span class="tag">LDR</span><span class="tag">LCD</span><span class="tag">Relay</span></div>
 </div>
 <div class="card project"><div class="num">02 • ASSISTIVE TECHNOLOGY</div><h3>Smart Stick – Enhanced Feature for Visually Challenged</h3>
-<p>A smart mobility concept designed to enhance independence through continuous feedback about the ground surface and surrounding environment. The design uses sensors and vibration alerts to provide r[...]
+<p>A smart mobility concept designed to enhance independence through continuous feedback about the ground surface and surrounding environment. The design uses sensors and vibration alerts to provide real-time navigation assistance.</p>
 <p><strong>Focus:</strong> Lightweight, durable and ergonomic assistance for safer long-distance walking.</p>
-<div class="tags"><span class="tag">Arduino</span><span class="tag">Ultrasonic Sensors</span><span class="tag">MPU6050</span><span class="tag">SIM Module</span><span class="tag">Vibration Motor</span>[...]
+<div class="tags"><span class="tag">Arduino</span><span class="tag">Ultrasonic Sensors</span><span class="tag">MPU6050</span><span class="tag">SIM Module</span><span class="tag">Vibration Motor</span></div>
 </div>
 <div class="card project"><div class="num">03 • DIGITAL ELECTRONICS</div><h3>Sequential Running LED System</h3>
 <p>Designed decorative running LED light patterns in which LEDs turn ON and OFF sequentially, providing hands-on understanding of sequential digital circuits.</p>
@@ -93,9 +94,9 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 <section id="education"><div class="container">
 <h2 class="section-title">Education</h2>
 <div class="timeline">
-<div class="timeline-item"><div class="date">Currently • 2nd Year</div><h3>Lovely Professional University</h3><p>Bachelor of Technology – Electronics and Communication Engineering<br>CGPA: 7.5<br>[...]
+<div class="timeline-item"><div class="date">Currently • 2nd Year</div><h3>Lovely Professional University</h3><p>Bachelor of Technology – Electronics and Communication Engineering<br>CGPA: 7.5<br>Mohali, Punjab</p></div>
 <div class="timeline-item"><div class="date">April 2023 – March 2025</div><h3>Avvai Matric Hr. Sec. School</h3><p>Intermediate • 95%<br>Salem, Tamil Nadu</p></div>
-<div class="timeline-item"><div class="date">Prior Education</div><h3>Achievers Academy Matric Hr. School</h3><p>Matriculation • 93%</p></div>
+<div class="timeline-item"><div class="date">Prior Education</div><h3>Achievers Academy Matric Hr. Sec. School</h3><p>Matriculation • 93%</p></div>
 </div></div></section>
 
 <section id="certificates"><div class="container">
@@ -108,7 +109,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);text-a
 <h2 class="section-title">Let's Connect</h2><p class="section-sub">Interested in hardware, digital design, semiconductors, VLSI and embedded systems? Feel free to reach out.</p>
 <div class="contact">
 <div class="card"><h3>Contact</h3><p>📞 <a href="tel:+919080727434">+91 90807 27434</a></p><p>✉️ <a href="mailto:moulisugumar07@gmail.com">moulisugumar07@gmail.com</a></p></div>
-<div class="card"><h3>Professional Profile</h3><p>🔗 <a href="https://linkedin.com/in/mouleesh-s383745378" target="_blank" rel="noopener">linkedin.com/in/mouleesh-s383745378</a></p><p class="mini">O[...]
+<div class="card"><h3>Professional Profile</h3><p>🔗 <a href="https://linkedin.com/in/mouleesh-s383745378" target="_blank" rel="noopener">linkedin.com/in/mouleesh-s383745378</a></p><p class="mini">Open to internships & collaborations</p></div>
 </div></div></section>
 
 <footer>© 2026 Mouleeswaran • Designed for a future in ASIC & semiconductor engineering.</footer>
